@@ -2,7 +2,7 @@ import fotoDenner from '../../assets/img/Denner01.png';
 
 export default function Sobre() {
   return (
-    <div className='flex flex-col md:flex-row items-center md:items-start justify-center container mx-auto 
+    <div className='flex flex-col md:flex-row items-center md:items-start justify-center mx-auto 
     py-20 md:px-10 lg:px-10 w-full overflow-hidden '
     id='Sobre'>
         <img src={fotoDenner} />
