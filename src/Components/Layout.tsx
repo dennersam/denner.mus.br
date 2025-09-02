@@ -1,3 +1,5 @@
+import Contato from "./Content/Contato";
+import Fotos from "./Content/Fotos";
 import Header from "./Content/Header";
 import Musica from "./Content/Musica";
 import Sobre from "./Content/Sobre";
@@ -9,6 +11,8 @@ export default function Layout() {
         <Header />
         <Sobre />
         <Musica />
+        <Fotos />
+        <Contato />
         <Footer />
       </div>
     )

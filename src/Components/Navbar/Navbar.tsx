@@ -18,20 +18,20 @@ export default function Navbar() {
 
   return (
     <div className="absolute top-0 left-0 w-full z-10 text-white">
-      <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32'>
+      <div className='container mx-auto flex justify-between items-center py-4 px-2 md:px-20 lg:px-50'>
         <a href='#' className='flex items-center'>
           <img src={dennerLogo} className='w-10 m-2'/>
           <span className='text-3xl font-bold text-white'>Denner</span>
         </a>
-        <ul className='hidden xl:flex items-center gap-12 font-semibold text-base'>
+        <ul className='hidden xl:flex items-center gap-16 font-semibold text-base'>
           <a href='#Sobre' className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'>Sobre</a>
           <a href='#Musica' className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'>Musica</a>
           <a href='#Fotos' className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'>Fotos</a>
           <a href='#Contato' className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'>Contato</a>
         </ul>
+        
         <div className='relative hidden md:flex items-center justify-center gap-3'>
-          <i className='bx bx-search absolute left-3 text-2xl text-white'></i>
-          <input type='text' placeholder='Pesquisa...' className='py-2 pl-10 rounded-xl border-2 border-white focus:outline-0 ' />
+            
         </div>
         <img onClick={() => setShowMobileMenu(true)} src={menu} className='md:hidden w-7 cursor-pointer' />
         
