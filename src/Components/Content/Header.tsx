@@ -1,5 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import backgroundImage from '../../assets/img/Denner_conversinha_1024x768.jpg';
+import WhatsAppButton from "../Component/WhatsAppButton";
 
 export default function Header() {
     return (
@@ -9,9 +10,9 @@ export default function Header() {
         <Navbar />
         
         <div className="container text-center mx-auto py-4 px-6 md:px-20 lg:px32 text-white">
-          <h2 className="text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20" >O melhor da música para seu evento!</h2>
+          <h2 className="text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20" >A melhor experiência de música ao vivo para seu evento!</h2>
           <div className="space-x-6 mt-16">
-            <a href="" className="bg-black border-white border-2 px-8 py-3 rounded">Contato</a>
+            <WhatsAppButton />
           </div>
         </div>
       
