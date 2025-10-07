@@ -35,7 +35,7 @@ export default function Navbar() {
           <a href='#Fotos' className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'>Fotos</a>
           <a href='#Contato' className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'>Contato</a>
           <a href='https://www.instagram.com/dennersam' target="_blank" className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'><IoLogoInstagram /></a>
-          <a href='https://www.youtube.com/@dennercerqueiraevangelista7662' target="_blank" className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'><BsYoutube /></a>
+          <a href='https://www.youtube.com/@denner_cerqueira' target="_blank" className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'><BsYoutube /></a>
           <a href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`} target="_blank" className='p-3 hover:bg-white hover:text-black rounded-md transition-all cursor-pointer'><FaWhatsapp /></a>
         </ul>
         
